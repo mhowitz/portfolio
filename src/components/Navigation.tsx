@@ -9,7 +9,7 @@ function Navigation() {
           `font-primary text-2xl transition-all ${
             isActive
               ? 'text-pink-200 border-b-4 border-pink-200'
-              : 'text-pink-300/70 hover:text-pink-200'
+              : 'text-emerald-400 hover:text-pink-200'
           }`
         }
       >
@@ -22,7 +22,7 @@ function Navigation() {
           `font-primary text-2xl transition-all ${
             isActive
               ? 'text-pink-200 border-b-4 border-pink-200'
-              : 'text-pink-300/70 hover:text-pink-200'
+              : 'text-emerald-400 hover:text-pink-200'
           }`
         }
       >
@@ -35,7 +35,7 @@ function Navigation() {
           `font-primary text-2xl transition-all ${
             isActive
               ? 'text-pink-200 border-b-4 border-pink-200'
-              : 'text-pink-300/70 hover:text-pink-200'
+              : 'text-emerald-400 hover:text-pink-200'
           }`
         }
       >
@@ -48,7 +48,7 @@ function Navigation() {
           `font-primary text-2xl transition-all ${
             isActive
               ? 'text-pink-200 border-b-4 border-pink-200'
-              : 'text-pink-300/70 hover:text-pink-200'
+              : 'text-emerald-400 hover:text-pink-200'
           }`
         }
       >
@@ -59,7 +59,7 @@ function Navigation() {
         href="https://github.com/mhowitz"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-primary text-2xl text-pink-300/70 hover:text-pink-200 transition-all"
+        className="font-primary text-2xl text-emerald-400 hover:text-pink-200 transition-all"
       >
         Github
       </a>

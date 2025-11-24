@@ -5,6 +5,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import PitViper from './pages/PitViper'
 import PitViperB2B from "./pages/PitViperB2B.tsx";
+import Skills from "./pages/Skills.tsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pitviper" element={<PitViper />} />
           <Route path="/pitviperb2b" element={<PitViperB2B />} />
+          <Route path="/my-skills" element={<Skills />} />
         </Routes>
       </div>
     </Router>

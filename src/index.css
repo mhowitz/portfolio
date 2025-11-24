@@ -2,9 +2,12 @@
 
 @theme {
   --font-primary: "Atop", sans-serif;
-  --font-secondary: "Mousse", sans-serif;
-  --drop-shadow-1x: 0 1.2px 1.2px rgba(0, 0, 0, 0.8);
+  --font-secondary: "Nunito";
+  --drop-shadow-1x: 0 6px 4px rgba(0, 0, 0, .8);
+  --drop-shadow-x: 0 2px 2px rgba(0, 0, 0, .8);
 }
+
+
 body {
   @apply bg-black;
 }
@@ -16,9 +19,9 @@ body {
   font-style: normal;
 }
 @font-face {
-  font-family: 'Mousse';
-  src: url('/Mousse-Regular.otf') format('opentype');
-  font-weight: 400;
+  font-family: 'Nunito';
+  src: url('/Nunito.ttf') format('truetype');
+  font-weight: 600;
   font-style: normal;
 }
 
